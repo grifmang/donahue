@@ -95,7 +95,7 @@ export const Contact = (props) => {
               </form>
             </div>
           </div>
-          {/* <div className='col-md-3 col-md-offset-1 contact-info'>
+          <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
               <h3>Contact Info</h3>
               <p>
@@ -116,12 +116,12 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> Email
-                </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                  <i className='fa fa-envelope-o'></i>{' '}
+                  <a style={{color:'white'}} href="mailto:donahueelectric.inc@gmail.com">Email</a>
+                </span>
               </p>
             </div>
-          </div> */}
+          </div>
           <div className='col-md-12'>
             <div className='row'>
               <div className='social'>
