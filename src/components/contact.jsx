@@ -53,7 +53,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible to schedule your quote.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -110,7 +110,7 @@ export const Contact = (props) => {
           <div className='col-md-3 col-md-offset-1 contact-info'>
             <div className='contact-item'>
               <h3>Contact Info</h3>
-              <p>
+              <p style={{whiteSpace: "pre-line"}}>
                 <span>
                   <i className='fa fa-map-marker'></i> Address
                 </span>
@@ -118,16 +118,16 @@ export const Contact = (props) => {
               </p>
             </div>
             <div className='contact-item'>
-              <p>
+              <div>
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
                 {/* {props.data ? props.data.phone : 'loading'} */}
-                <div style={{display: 'block'}}>
-                <a class="btn btn-success" href="sms:+18664504185" role="button">Text Us!</a>{' '}
-                <a class="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a>
-                </div>
-              </p>
+                <p style={{display: 'block'}}>
+                <a className="btn btn-success" href="sms:+18664504185" role="button">Text Us!</a>{' '}
+                <a className="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a>
+                </p>
+              </div>
             </div>
             <div className='contact-item'>
               <p>
