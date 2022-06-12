@@ -1,19 +1,26 @@
 import { useState } from 'react'
 import emailjs from 'emailjs-com'
+import ReCAPTCHA from 'react-google-recaptcha'
+require('dotenv').config()
 
 const initialState = {
   name: '',
   email: '',
   message: '',
+  isVerified: false
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ name, email, message, isVerified}, setState] = useState(initialState)
 
   const handleChange = (e) => {
     const { name, value } = e.target
     setState((prevState) => ({ ...prevState, [name]: value }))
   }
   const clearState = () => setState({ ...initialState })
+
+  const handleToken = (token) => {
+    setState((prevState) => ({ ...prevState, token: token, isVerified: true }))
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -33,6 +40,7 @@ export const Contact = (props) => {
       )
   }
   return (
+    <>
     <div>
       <div id='contact'>
         <div className='container'>
@@ -88,8 +96,12 @@ export const Contact = (props) => {
                   ></textarea>
                   <p className='help-block text-danger'></p>
                 </div>
+                <ReCAPTCHA
+                  sitekey="6Ldyo2IgAAAAAEEcxUwCl_Lc0VZDVD0iO59H9YvS"
+                  onChange={handleToken}
+                />
                 <div id='success'></div>
-                <button type='submit' className='btn btn-custom btn-lg'>
+                <button type='submit' disabled={!isVerified} className='btn btn-custom btn-lg'>
                   Send Message
                 </button>
               </form>
@@ -110,7 +122,11 @@ export const Contact = (props) => {
                 <span>
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {/* {props.data ? props.data.phone : 'loading'} */}
+                <div style={{display: 'block'}}>
+                <a class="btn btn-success" href="sms:+18664504185" role="button">Text Us!</a>{' '}
+                <a class="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a>
+                </div>
               </p>
             </div>
             <div className='contact-item'>
@@ -131,7 +147,7 @@ export const Contact = (props) => {
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a href={props.data ? props.data.twitter : '/'}>
                       <i className='fa fa-twitter'></i>
                     </a>
@@ -140,7 +156,7 @@ export const Contact = (props) => {
                     <a href={props.data ? props.data.youtube : '/'}>
                       <i className='fa fa-youtube'></i>
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -158,5 +174,6 @@ export const Contact = (props) => {
         </div>
       </div>
     </div>
+    </>
   )
 }

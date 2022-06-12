@@ -3,7 +3,7 @@
     "paragraph": ""
   },
   "About": {
-    "paragraph": "Donahue Electric Inc. is an electrical contracting company that prides itself on Quality, Professionalism, and Responsiveness. Donahue Electric Inc. is a very capable contractor with 40 years of experience in Residential, Commercial, and Industrial work. We pride ourselves on returning phone calls and messages in a very reasonable time frame regardless of the size of the job.",
+    "paragraph": "Donahue Electric Inc. is an electrical contracting company that prides itself on Quality, Professionalism, and Responsiveness. Donahue Electric Inc. is a very capable contractor with 40+ years of experience in Residential, Commercial, and Industrial work. We pride ourselves on returning phone calls and messages in a very reasonable time frame regardless of the size of the job.",
     "Why": [
       "Residential Work",
       "Industrial Work",
@@ -19,81 +19,66 @@
   },
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/team/1.jpg",
-      "smallImage": "img/team/1-resize.jpg"
+      "title": "",
+      "largeImage": "img/team/01-large.jpg",
+      "smallImage": "img/team/small/01-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/2.jpg",
-      "smallImage": "img/team/2.jpg"
+      "title": "",
+      "largeImage": "img/team/02-large.jpg",
+      "smallImage": "img/team/small/02-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/3.jpg",
-      "smallImage": "img/team/3.jpg"
+      "title": "",
+      "largeImage": "img/team/03-large.jpg",
+      "smallImage": "img/team/small/03-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/4.jpg",
-      "smallImage": "img/team/4.jpg"
+      "title": "",
+      "largeImage": "img/team/04-large.jpg",
+      "smallImage": "img/team/small/04-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/about.jpg",
-      "smallImage": "img/team/about.jpg"
+      "title": "",
+      "largeImage": "img/team/05-large.jpg",
+      "smallImage": "img/team/small/05-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/6.jpg",
-      "smallImage": "img/team/6.jpg"
+      "title": "",
+      "largeImage": "img/team/06-large.jpg",
+      "smallImage": "img/team/small/06-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/7.jpg",
-      "smallImage": "img/team/7.jpg"
+      "title": "",
+      "largeImage": "img/team/07-large.jpg",
+      "smallImage": "img/team/small/07-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/8.jpg",
-      "smallImage": "img/team/8-small.jpg"
+      "title": "",
+      "largeImage": "img/team/08-large.jpg",
+      "smallImage": "img/team/small/08-small.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/team/5.jpg",
-      "smallImage": "img/team/5-resize.jpg"
+      "title": "",
+      "largeImage": "img/team/09-large.jpg",
+      "smallImage": "img/team/small/09-small.jpg"
     }
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Residential",
+      "text": "Service Changes and Upgrades \n Additions and Remodels \n Light Fixture / Outlet Changes \n New Home Construction"
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-truck",
+      "name": "Industrial Commercial",
+      "text": "Offices \n Restaurants \n Industry"
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-wrench",
+      "name": "Emergency After-Hours",
+      "text": "24-hour service available."
     }
   ],
   "Testimonials": [
@@ -154,7 +139,7 @@
     "address": "120 Christopher Lane, Feeding Hills, MA 01030",
     "phone": "413-579-7130",
     "email": "donahueelectric.inc@gmail.com",
-    "facebook": "fb.com",
+    "facebook": "https://www.facebook.com/ddonahueelectric/",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
