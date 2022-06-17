@@ -212,10 +212,10 @@ a:focus,
   width: 100vw;
   padding: 0;
   background: url(../img/big_logo.jpg) center center no-repeat fixed;
-  background-color: #e5e5e5;
+  background-color: #426CB4;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  background-size: cover;
+  background-size: contain;
   -o-background-size: cover;
 }
 .intro .overlay {

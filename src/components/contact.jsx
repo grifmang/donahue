@@ -124,7 +124,7 @@ export const Contact = (props) => {
                 </span>{' '}
                 {/* {props.data ? props.data.phone : 'loading'} */}
                 <p style={{display: 'block'}}>
-                <a className="btn btn-success" href="sms:+18664504185" role="button">Text Us!</a>{' '}
+                <a className="btn btn-success" href="sms:+14135797130" role="button">Text Us!</a>{' '}
                 <a className="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a>
                 </p>
               </div>
