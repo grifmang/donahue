@@ -123,10 +123,11 @@ export const Contact = (props) => {
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
                 {/* {props.data ? props.data.phone : 'loading'} */}
-                <p style={{display: 'block'}}>
-                <a className="btn btn-success" href="sms:+14135797130" role="button">Text Us!</a>{' '}
-                <a className="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a>
-                </p>
+                  <p>413-579-7130</p>
+                <div style={{display: 'flex'}}>
+                  <div><a className="btn btn-success" href="sms:+14135797130" role="button">Text Us!</a>{' '}</div>
+                  <div><a className="btn btn-success" href="tel:+14135797130" role="button">Call Us!</a></div>
+                </div>
               </div>
             </div>
             <div className='contact-item'>

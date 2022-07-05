@@ -4,15 +4,20 @@
     width: 111%;
   }
   #about,
-  #services,
+  #services {
+    width: 135%;
+  }
   #testimonials,
   #team,
-  #contact,
+  #contact{
+    width: 135%;
+  }
   #footer {
     width: 111%;
   }
 
   #portfolio {
-    width: 110%;
+    margin: 17px;
+    width: 135%;
   }
 }
