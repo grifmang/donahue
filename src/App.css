@@ -5,7 +5,10 @@
   }
   #about,
   #services {
-    width: 135%;
+    width: 138%;
+  }
+  #header-intro {
+    background-position: 50% 35%;
   }
   #testimonials,
   #team,

@@ -3,7 +3,7 @@ import logo from '../images/logo2.png';
 export const Header = (props) => {
   return (
     <header id='header'>
-      <div className='intro'>
+      <div id='header-intro' className='intro'>
         <div className='overlay'>
           <div className='container'>
             <div className='row'>
