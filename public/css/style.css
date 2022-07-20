@@ -207,12 +207,14 @@ a:focus,
 .intro {
   display: table;
   height: 100vh;
-  /* background-attachment: fixed; */
+  /* background-attachment:fixed; */
   width: 100vw;
   padding: 0;
+  -webkit-background: url(../img/big_logo.jpg) center center no-repeat fixed;
+  -moz-background: url(../img/big_logo.jpg) center center no-repeat fixed;
   background: url(../img/big_logo.jpg) center center no-repeat fixed;
   background-color: #426CB4;
-  -webkit-background-size: contain;
+  -webkit-background-size: contain !important;
   -moz-background-size: contain;
   background-size: contain;
   -o-background-size: contain;
