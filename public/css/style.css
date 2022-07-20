@@ -207,16 +207,15 @@ a:focus,
 .intro {
   display: table;
   height: 100vh;
-  background-size: cover;
   /* background-attachment: fixed; */
   width: 100vw;
   padding: 0;
-  background: url(../img/big_logo.jpg) center center no-repeat fixed !important;
+  background: url(../img/big_logo.jpg) center center no-repeat fixed;
   background-color: #426CB4;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
   background-size: contain;
-  -o-background-size: cover;
+  -o-background-size: contain;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
