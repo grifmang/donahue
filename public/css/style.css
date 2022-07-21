@@ -212,21 +212,16 @@ a:focus,
   padding: 0;
   /* -webkit-background: url(../img/big_logo.jpg) center center no-repeat fixed !important;
   -moz-background: url(../img/big_logo.jpg) center center no-repeat fixed; */
-  background:
-    linear-gradient(
-      rgb(66, 108, 180),
-      rgb(66, 108, 180)
-    ) 
-    url(../img/big_logo.jpg) center center no-repeat fixed !important;
+  background: linear-gradient(rgb(66, 108, 180),rgb(66, 108, 180)) url(../img/big_logo.jpg) center center no-repeat fixed !important;
   /* background-color: #426CB4; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
-/* .intro .overlay {
+.intro .overlay {
   background: rgba(0, 0, 0, 0.2);
-} */
+}
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
