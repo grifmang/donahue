@@ -214,10 +214,10 @@ a:focus,
   -moz-background: url(../img/big_logo.jpg) center center no-repeat fixed;
   background: url(../img/big_logo.jpg) center center no-repeat fixed;
   background-color: #426CB4;
-  -webkit-background-size: contain !important;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
