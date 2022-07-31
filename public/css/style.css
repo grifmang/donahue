@@ -216,7 +216,7 @@ a:focus,
   background: url(../img/big_logo.jpg) center no-repeat fixed;
   -webkit-background: url(../img/big_logo.jpg) center no-repeat fixed;
   -moz-background: url(../img/big_logo.jpg) center no-repeat fixed;
-  background-color: #426CB4;
+  /* background-color: #426CB4; */
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
