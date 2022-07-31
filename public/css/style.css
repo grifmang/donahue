@@ -211,6 +211,7 @@ a:focus,
 
 .intro {
   display: table;
+  z-index: 9999;
   height: 100vh;
   /* background-attachment:fixed; */
   width: 100%;
