@@ -5,6 +5,7 @@ html {
   -webkit-font-smoothing: antialiased !important;
   color: #777;
   font-weight: 400;
+  margin: auto !important;
   width: 100% !important;
   height: 100% !important;
 }
@@ -204,6 +205,10 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+#header {
+  background-color: #426CB4;
+}
+
 .intro {
   display: table;
   height: 100vh;
