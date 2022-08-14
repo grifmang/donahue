@@ -24,10 +24,10 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
+    // console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        process.env.EMAIL_SITE_ID, process.env.TEMPLATE_ID, e.target, process.env.EMAIL
       )
       .then(
         (result) => {
@@ -97,7 +97,7 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div>
                 <ReCAPTCHA
-                  sitekey="6Ldyo2IgAAAAAEEcxUwCl_Lc0VZDVD0iO59H9YvS"
+                  sitekey={process.env.RECAPTCHA_SITE_KEY}
                   onChange={handleToken}
                 />
                 <div id='success'></div>
