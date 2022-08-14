@@ -24,7 +24,8 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // console.log(name, email, message)
+    console.log(name, email, message)
+    console.log(process.env.EMAIL_PUBLIC_KEY)
     emailjs
       .sendForm(
         process.env.EMAIL_SITE_ID, process.env.TEMPLATE_ID, e.target, process.env.EMAIL_PUBLIC_KEY
