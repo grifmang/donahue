@@ -25,10 +25,10 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     console.log(name, email, message)
-    console.log(process.env.EMAIL_PUBLIC_KEY)
+    console.log(process.env.REACT_APP_EMAIL_PUBLIC_KEY)
     emailjs
       .sendForm(
-        process.env.EMAIL_SITE_ID, process.env.TEMPLATE_ID, e.target, process.env.EMAIL_PUBLIC_KEY
+        process.env.REACT_APP_EMAIL_SITE_ID, process.env.REACT_APP_TEMPLATE_ID, e.target, process.env.REACT_APP_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -98,7 +98,7 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div>
                 <ReCAPTCHA
-                  sitekey='6Ldyo2IgAAAAAEEcxUwCl_Lc0VZDVD0iO59H9YvS'
+                  sitekey={process.env.REACT_APP_EMAIL_SITE_ID}
                   onChange={handleToken}
                 />
                 <div id='success'></div>
