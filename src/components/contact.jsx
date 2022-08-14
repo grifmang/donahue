@@ -98,7 +98,7 @@ export const Contact = (props) => {
                   <p className='help-block text-danger'></p>
                 </div>
                 <ReCAPTCHA
-                  sitekey={process.env.REACT_APP_EMAIL_SITE_ID}
+                  sitekey={process.env.REACT_APP_RECAPTCHA_SITE_KEY}
                   onChange={handleToken}
                 />
                 <div id='success'></div>
