@@ -39,6 +39,11 @@ export const Contact = (props) => {
           console.log(error.text)
         }
       )
+    setState({
+      name: '',
+      email: '',
+      message: ''
+    })
   }
   return (
     <>
