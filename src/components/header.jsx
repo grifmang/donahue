@@ -4,8 +4,9 @@ export const Header = (props) => {
   return (
     <header id='header'>
       <div id='header-intro' className='intro'>
-        <div className='overlay'>
-          <div className='container'>
+        {/* <div className='logo'></div> */}
+        {/* <div className='overlay'> */}
+          <div className='container-fluid'>
             <div className='row'>
               <div className='col-md-8 col-md-offset-2 intro-text'>
                 <h1>
@@ -18,7 +19,7 @@ export const Header = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </header>
   )
 }

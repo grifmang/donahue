@@ -2,8 +2,8 @@ import logo from '../images/logo.jpg';
 
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
-      <div className='container'>
+    <nav id='menu' className='navbar navbar-default navbar-fixed-top navbar-expand'>
+      <div className='container-fluid'>
         <div className='navbar-header'>
           <button
             type='button'
